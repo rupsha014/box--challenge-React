@@ -11,7 +11,7 @@ function Box(props) {
     setOn(prevOn = !prevOn)
   }
   return (
-    <div style={style} className=" h-20 w-20 inline-block  border-2 border-black border-box mr-3" onClick={props.toggle}></div>
+    <div style={style} className=" h-20 w-20 inline-block  border-2 border-black border-box mr-3" onClick={toggle}></div>
   )
 }
 
